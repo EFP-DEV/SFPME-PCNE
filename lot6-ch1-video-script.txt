@@ -1,0 +1,53 @@
+
+[00:00–00:20]  
+Bonjour et bienvenue dans le premier Chapitre de cette formation sur la cybersécurité. 
+Je suis [Votre nom], et dans cette première séquence, nous allons introduire les enjeux
+et les définitions clés de la cybersécurité pour vous permettre de comprendre pourquoi elle est cruciale pour vous et pour votre entreprise.
+
+[00:20–01:10]  
+La cybersécurité désigne la protection des systèmes informatiques – 
+c’est-à-dire d'un cote le matériel (ordinateurs, smartphones, cle usb, disque dur ou les composant de votre reseau)
+ et de lautre les logiciels (applications, sites web, email, et autres services numeriques)
+
+Mais les proteger contre quoi ? Vous avez peut etre deja entendu parler, dans les medias, de fuites de données, de piratages ou de ransomwares, comme une boutique en ligne qui n'a pas securise les données bancaires de ses clients et suite a une panne ou un piratage, se retrouve sous une montagne de problemes.
+
+Il est important de comprendre que la cybersécurité ne concerne pas seulement les grandes entreprises ou les gouvernements, mais aussi les petites entreprises et les particuliers. Et qu'il ne sagit pas seulement de protéger les données, mais aussi de garantir le bon fonctionnement des services numériques que nous utilisons au quotidien.
+
+
+[01:10–02:00]  
+Trois piliers fondamentaux de la cybersécurité :  
+1. Confidentialité:  elle garantie que seules les personnes autorisées peuvent accéder aux données.  
+2. Intégrité – il sagit ici de s’assurer que les informations ne sont pas modifiee sans autorisation. 
+3. Disponibilité – maintenir vos services numeriques opérationnels et accessibles.
+
+[02:00–02:40]  
+Pourquoi la cybersécurité est-elle cruciale ?
+On pense bien sur aux Coûts financiers: une attaque ou une faille peut bloquer vos fichiers ou les rendre inoperables pendant plusieurs jours et vous empecher de travailler.
+Il y aussi la perte de la Confiance client : une fuite de données endommage la réputation de votre entreprise. 
+Ensuite, il y des Obligations légales : le fameux RGPD (Règlement Général sur la Protection des Données) impose des sanctions en cas de non-conformité.
+
+Il ne s'agit donc pas seulement de protéger vos données, mais aussi de respecter la loi et de maintenir la confiance de vos clients.
+
+[02:40–03:30]  
+
+Les enjeux de la cybersécurité se répartissent en deux dimensions complémentaires, humaine et technique.  
+
+Dans la dimension humaine : la plupart des incidents proviennent d’erreurs ou de méconnaissance. Certaines attaques exploitent la confiance de l’utilisateur en lui envoyant de faux e-mails ou en le dirigeant vers des sites factices pour lui soutirer des informations ou installer discrètement un logiciel malveillant.
+
+Pour la dimension technique, une serie de regles de bases (comme les mises à jour régulières & et les sauvegardes) sont essentielles. 
+
+Pour mieux comprendre, imaginez votre ordinateur comme une maison. Vous avez besoin de bonnes serrures (mot de passse, antivirus) et de vérifier régulièrement que tout est en bon état (mises à jour). Un cambriolage est plus souvent le résultat d'une porte mal fermée ou d'une fenêtre laissée ouverte que d'une intention malveillante ciblée.
+
+Il est donc important d'avoir une bonne porte (c'est laspect technique) mais aussi de ne pas laisser ses clés sous le paillasson (ou un mot de passe sur un post it sur vore ecran).
+
+Cela peut sembler basique, mais cest la base de la sécurité.
+
+
+[03:30–04:30]  
+En résumé, la cybersécurité :  
+- Protège et assure la continuité de vos activités.  
+- Valorise votre image : communiquer sur votre niveau de sécurité renforce la confiance de vos clients. 
+- Vous met en conformité avec la législation et évite des amendes parfois lourdes.
+
+Pour aller plus loin dans ce Chapitre 1, suivez la prochaine séquence où nous définirons en détail les notions de malware, phishing et autre termes etranges..  
+Merci de votre attention, et à tout de suite pour la suite du module !  
