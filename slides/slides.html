@@ -5,46 +5,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark light" />
-    <title>Formation Cybersécurité — v2</title>
+    <title>Formation Cybersécurité — v3</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="slides.css" />
 </head>
 
 <body>
-    <!-- Toolbar: thème & taille & aide -->
-    <header class="toolbar" role="banner" aria-label="Barre d’outils de présentation">
+    <header class="toolbar" role="banner" aria-label="Barre d'outils de présentation">
         <nav role="navigation" aria-label="Commandes de présentation">
-            <button id="themeBtn" title="Basculer thème (t)">Thème : <span id="themeLbl">Hacker</span></button></li>
-            <button id="densityBtn" title="Densité d'information (d)">Densité : <span
-                    id="densityLbl">Normale</span></button></li>
-            <button id="biggerBtn" title="Augmenter la taille ( + )">A+</button></li>
-            <button id="smallerBtn" title="Diminuer la taille ( − )">A−</button></li>
+            <button id="themeBtn" title="Basculer thème (t)">Thème : <span id="themeLbl">Hacker</span></button>
+            <button id="densityBtn" title="Densité d'information (d)">Densité : <span
+                    id="densityLbl">Normale</span></button>
+            <button id="biggerBtn" title="Augmenter la taille ( + )">A+</button>
+            <button id="smallerBtn" title="Diminuer la taille ( − )">A−</button>
             <span class="kbd">←/→</span><span class="note">naviguer</span>
             <span class="kbd">F11</span><span class="note">plein écran</span>
             <span class="kbd">P</span><span class="note">imprimer mémo</span>
         </nav>
     </header>
 
-
     <main role="main">
         <div class="swiper">
             <div class="swiper-wrapper">
 
-                <!-- Titre -->
+                <!-- 1. Titre -->
                 <section class="swiper-slide" aria-labelledby="s1t">
                     <div class="slide-content">
-                        <div class="slide-number">[1/29]</div>
+                        <div class="slide-number">[1/37]</div>
                         <h1 id="s1t" class="slide-title">Formation cybersécurité</h1>
-                        <p class="slide-subtitle">3 heures pour protéger votre vie numérique
-                        </p>
+                        <p class="slide-subtitle">3 heures pour protéger votre vie numérique</p>
                         <p class="slide-text">La cybersécurité, ce n'est pas la paranoïa : c'est l'équivalent numérique
                             de <em>fermer la porte à clé</em>. Dans ce cours, on reste concret : menaces courantes,
                             gestes simples, conformité minimale, et ergonomie de travail.</p>
+                        <br />
+                        <p class="slide-subtitle">Mieux vaut une habitude simple appliquée tous les jours qu'un outil
+                            complexe oublié</p>
+                    </div>
+                </section>
 
-                        <br />
-                        <p class="slide-subtitle">Paradigme : mieux vaut une habitude
-                            simple appliquée tous les jours qu'un outil complexe oublié</p>
-                        <br />
+                <section class="swiper-slide" aria-labelledby="s1t">
+                    <div class="slide-content">
+                        <div class="slide-number">[1/37]</div>
+                        <h1 id="s1t" class="slide-title">Formation cybersécurité</h1>
 
                         <figure class="terminal">
                             <figcaption class="ok">Règles du cadre</figcaption>
@@ -58,14 +60,13 @@
                     </div>
                 </section>
 
-                <!-- Accueil / Prise de connaissance -->
+                <!-- 2. Accueil -->
                 <section class="swiper-slide" aria-labelledby="s0t">
                     <div class="slide-content">
-                        <div class="slide-number">[2/29]</div>
+                        <div class="slide-number">[2/37]</div>
                         <span class="time-badge">0:00 – 0:05</span>
                         <h2 id="s0t" class="slide-title">Accueil — Prise de connaissance</h2>
                         <p class="slide-subtitle">Objectif : vous connaitre et comprendre vos attentes</p>
-
                         <figure class="terminal">
                             <figcaption>Tour de table (≈ 30 s / personne)</figcaption>
                             <ul class="slide-list">
@@ -80,18 +81,17 @@
                     </div>
                 </section>
 
-                <!-- Table des matières -->
+                <!-- 3. Table des matières -->
                 <section class="swiper-slide" aria-labelledby="s1bt">
                     <div class="slide-content">
-                        <div class="slide-number">[3/29]</div>
-                        <span class="time-badge">0:05 – 0:10</span>
+                        <div class="slide-number">[3/37]</div>
                         <h2 id="s1bt" class="slide-title">Table des matières</h2>
                         <figure class="terminal">
                             <figcaption>Parcours de la formation</figcaption>
                             <ul class="slide-list">
-                                <li>Module 1 — Sécurité physique</li>
-                                <li>Module 2 — Sauvegardes</li>
-                                <li>Module 3 — Détecter les menaces</li>
+                                <li>Module 1 — Proteger</li>
+                                <li>Module 2 — Sauvegarder</li>
+                                <li>Module 3 — Reagir</li>
                                 <li>Module 4 — Sécurité mobile</li>
                                 <li>Module 5 — Ergonomie</li>
                                 <li>Module 6 — RGPD</li>
@@ -101,19 +101,19 @@
                     </div>
                 </section>
 
-                <!-- Diagnostic interactif -->
+                <!-- 4. Diagnostic -->
                 <section class="swiper-slide" aria-labelledby="s2t">
                     <div class="slide-content">
-                        <div class="slide-number">[4/29]</div>
-                        <span class="time-badge">0:10 – 0:15</span>
+                        <div class="slide-number">[4/37]</div>
+                        <span class="time-badge">0:05 – 0:10</span>
                         <h2 id="s2t" class="slide-title">Diagnostic express</h2>
                         <p class="slide-text">Levez la main si vous avez déjà :</p>
                         <figure class="terminal">
                             <ul class="slide-list">
                                 <li>Perdu des photos</li>
-                                <li>Repondu a un SMS/mail douteux</li>
-                                <li>Clique sur un lien en croyant qu'il etait legitime</li>
-                                <li>pris trop de temps a retrouver un document</li>
+                                <li>Répondu à un SMS/mail douteux</li>
+                                <li>Cliqué sur un lien en croyant qu'il était légitime</li>
+                                <li>Pris trop de temps à retrouver un document</li>
                                 <li>PC/Smartphone volé ou perdu</li>
                                 <li>Oublié un mot de passe</li>
                             </ul>
@@ -123,37 +123,23 @@
                     </div>
                 </section>
 
-
-                <!-- Module sécurité physique -->
+                <!-- 8. Module 1 — Sécurité physique -->
                 <section class="swiper-slide" aria-labelledby="s6t">
                     <div class="slide-content">
-                        <div class="slide-number">[5/29]</div>
-                        <span class="time-badge">0:15 – 0:40</span>
+                        <div class="slide-number">[8/37]</div>
+                        <span class="time-badge">0:20 – 0:40</span>
                         <h2 id="s6t" class="slide-title">Module 1 — Sécurité physique</h2>
                         <p class="slide-subtitle">Le monde réel attaque aussi.</p>
 
-                        <figure class="terminal">
-                            <figcaption>Réflexes — sécurité physique</figcaption>
-                            <ul class="slide-list">
-                                <li><strong>Win+L</strong> dès que vous vous levez</li>
-                                <li>Bureau clair (rien de sensible ne traîne)</li>
-                                <li>Ports et badges : vigilance avant de brancher/passer</li>
-                                <li>Écran bien placé (limiter les regards par-dessus l'épaule)</li>
-                                <li>Invités escortés (pas d'accès libre)</li>
-                            </ul>
-                        </figure>
-                        <p class="slide-text">Exercice : vérifiez le bureau du voisin (documents visibles ? clés USB ?
-                            écran ?).</p>
                     </div>
                 </section>
 
-                <!-- Module sécurité physique -->
-                <!-- 5 réflexes -->
+                <!-- 9. Les 5 réflexes -->
                 <section class="swiper-slide" aria-labelledby="s7t">
                     <div class="slide-content">
-                        <div class="slide-number">[6/29]</div>
+                        <div class="slide-number">[9/37]</div>
                         <h2 id="s7t" class="slide-title">Les 5 réflexes</h2>
-                        <ul class="slide-list cols-2">
+                        <ul class="slide-list">
                             <li><strong>Win+L</strong> dès que vous vous levez.</li>
                             <li><strong>Bureau propre</strong> : rien de sensible traîne.</li>
                             <li><strong>Clés USB suspectes</strong> = seringue sale.</li>
@@ -163,16 +149,15 @@
                     </div>
                 </section>
 
-                <!-- Module sécurité physique -->
-                <!-- Clé USB piège -->
+                <!-- 10. Clé USB piège -->
                 <section class="swiper-slide" aria-labelledby="s4t">
                     <div class="slide-content">
-                        <div class="slide-number">[7/29]</div>
+                        <div class="slide-number">[10/37]</div>
                         <h2 id="s4t" class="slide-title">La clé USB piège</h2>
                         <p class="slide-subtitle">Scénario : « Salaires_2024.xlsx » trouvé au parking.</p>
-                        <ul class="quiz" role="list" aria-label="Quiz clé USB" data-quiz>
-                            <li><button class="quiz-option" data-correct="false">La brancher « juste pour
-                                    voir »</button></li>
+                        <ul class="quiz" role="list" aria-label="Quiz clé USB pratique" data-quiz>
+                            <li><button class="quiz-option" data-correct="false">La brancher « juste pour voir
+                                    »</button></li>
                             <li><button class="quiz-option" data-correct="true">La signaler (IT) / la déposer à
                                     l'accueil</button></li>
                             <li><button class="quiz-option" data-correct="true">Ne pas l'utiliser, ne pas la ramener
@@ -183,11 +168,10 @@
                     </div>
                 </section>
 
-
-                <!-- Module sauvegardes -->
+                <!-- 11. Module 2 — Sauvegardes -->
                 <section class="swiper-slide" aria-labelledby="s8t">
                     <div class="slide-content">
-                        <div class="slide-number">[8/29]</div>
+                        <div class="slide-number">[11/37]</div>
                         <span class="time-badge">0:40 – 1:05</span>
                         <h2 id="s8t" class="slide-title">Module 2 — Sauvegardes</h2>
                         <div class="terminal">Si vous avez une sauvegarde, vous pleurez une fois. Sinon, vous pleurez
@@ -196,11 +180,10 @@
                     </div>
                 </section>
 
-                <!-- Module sauvegardes -->
-                <!-- 9. Règle 3-2-1 -->
+                <!-- 12. Règle 3-2-1 -->
                 <section class="swiper-slide" aria-labelledby="s9t">
                     <div class="slide-content">
-                        <div class="slide-number">[9/29]</div>
+                        <div class="slide-number">[12/37]</div>
                         <h2 id="s9t" class="slide-title">Règle 3‑2‑1</h2>
                         <div class="center-big"><strong>3</strong> copies • <strong>2</strong> supports •
                             <strong>1</strong> hors site
@@ -210,11 +193,10 @@
                     </div>
                 </section>
 
-                <!-- Module sauvegardes -->
-                <!-- 10. Planning sauvegarde -->
+                <!-- 13. Planning sauvegarde -->
                 <section class="swiper-slide" aria-labelledby="s10t">
                     <div class="slide-content">
-                        <div class="slide-number">[10/29]</div>
+                        <div class="slide-number">[13/37]</div>
                         <h2 id="s10t" class="slide-title">Votre planning de sauvegarde</h2>
                         <figure class="terminal">
                             <figcaption>Planning de sauvegarde</figcaption>
@@ -225,39 +207,36 @@
                             </ul>
                             <p class="note">Rappel : effectuer la vérification le dimanche soir.</p>
                         </figure>
-
                         <p class="slide-text">Démo : configurer une sauvegarde automatique (Drive/OneDrive/Syncthing) en
                             10 minutes.</p>
                     </div>
                 </section>
 
-
-                <!-- Module Détecter/Reagir -->
-                <!-- 11. Détecter les menaces -->
+                <!-- 14. Module 3 — Détecter les menaces -->
                 <section class="swiper-slide" aria-labelledby="s11t">
                     <div class="slide-content">
-                        <div class="slide-number">[11/29]</div>
+                        <div class="slide-number">[14/37]</div>
                         <span class="time-badge">1:05 – 1:15</span>
                         <h2 id="s11t" class="slide-title">Module 3 — Détecter les menaces</h2>
                         <figure class="terminal">
                             <figcaption>Signaux d'alerte (phishing & arnaques)</figcaption>
                             <ul class="slide-list">
-                                <li>Fautes et incohérences</li>
-                                <li>Urgence artificielle / chantage</li>
-                                <li>Adresse qui "ressemble" (usurpation)</li>
-                                <li>PJ ou lien inattendu</li>
+                                <li>Fautes d’orthographe inhabituelles</li>
+                                <li>Urgence artificielle et stress</li>
+                                <li>Chantage émotionnel et peur</li>
+                                <li>Adresse email qui ressemble mais différente</li>
+                                <li>Pièces jointes inattendues</li>
+                                <li>Liens raccourcis bizarres</li>
                             </ul>
                         </figure>
-
-                        <p class="slide-text">Règle : quand ça presse, <em>STOP</em> (voir diapo suivante).
+                        <p class="slide-text">Règle : quand ça presse, <em>STOP</em> (voir diapo suivante).</p>
                     </div>
                 </section>
 
-                <!-- Module Détecter/Reagir -->
-                <!-- 12. STOP -->
+                <!-- 15. Méthode STOP -->
                 <section class="swiper-slide" aria-labelledby="s12t">
                     <div class="slide-content">
-                        <div class="slide-number">[12/29]</div>
+                        <div class="slide-number">[15/37]</div>
                         <h2 id="s12t" class="slide-title">Méthode STOP</h2>
                         <figure class="terminal">
                             <figcaption>Méthode <strong>STOP</strong></figcaption>
@@ -272,18 +251,16 @@
                                     signaler, changer le mot de passe</li>
                             </ul>
                         </figure>
-
                         <p class="slide-text">Mieux vaut 100 fausses alertes qu'un seul clic fatal.</p>
                     </div>
                 </section>
 
-
+                <!-- 16. Ingénierie sociale -->
                 <section class="swiper-slide" aria-labelledby="sist">
                     <div class="slide-content">
-                        <div class="slide-number">[13/35]</div>
+                        <div class="slide-number">[16/37]</div>
                         <h2 id="sist" class="slide-title">Ingénierie sociale — Scénarios</h2>
                         <p class="slide-subtitle">Attaques psychologiques : reconnaître et bloquer</p>
-
                         <figure class="terminal">
                             <figcaption class="err">Scénario 1 — Le faux technicien</figcaption>
                             <ul class="slide-list">
@@ -292,17 +269,14 @@
                                 <li><strong>Réponse :</strong> "Je vous rappelle au numéro officiel de l'IT"</li>
                             </ul>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption class="warn">Scénario 2 — Le patron pressé</figcaption>
                             <ul class="slide-list">
                                 <li><strong>Attaque :</strong> Email du patron : "Peux-tu faire un virement urgent ? Je
-                                    suis en réunion"
-                                </li>
+                                    suis en réunion"</li>
                                 <li><strong>Réponse :</strong> Appeler pour confirmer vocalement (TOUJOURS)</li>
                             </ul>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption class="ok">Scénario 3 — Le collègue dans le besoin</figcaption>
                             <ul class="slide-list">
@@ -314,18 +288,14 @@
                     </div>
                 </section>
 
-
-                <!-- Module Détecter/Reagir -->
-                <!-- Mots de passe (signification) -->
-                <section class="swiper-slide" aria-labelledby="s2t">
+                <!-- 17. Qu'est-ce qu'un mot de passe -->
+                <section class="swiper-slide" aria-labelledby="spwdt">
                     <div class="slide-content">
-                        <div class="slide-number">[14/29]</div>
+                        <div class="slide-number">[17/37]</div>
                         <span class="time-badge">1:15 – 1:30</span>
-                        <h2 id="s2t" class="slide-title">Qu'est-ce qu'un mot de passe ?</h2>
-
+                        <h2 id="spwdt" class="slide-title">Qu'est-ce qu'un mot de passe ?</h2>
                         <p class="slide-subtitle">Un mot de passe sert à <strong>prouver ton identité</strong>. Il te
                             distingue de tous les autres utilisateurs d'un système.</p>
-
                         <figure class="terminal">
                             <figcaption>Analogie — carte d'identité numérique</figcaption>
                             <ul class="slide-list">
@@ -335,21 +305,19 @@
                                 <li>Ne jamais le partager, même avec un proche ou un collègue.</li>
                             </ul>
                         </figure>
-
                         <p class="note">Si qqun insiste pour connaitre: se demander si on lui confierai les cles de chez
                             soi, ou ces enfants → ton mot de passe, c'est pareil.</p>
                     </div>
                 </section>
 
-                <!-- Module Détecter/Reagir -->
-                <!-- Mots de passe (fondamentaux) -->
+                <!-- 18. Mots de passe : l'essentiel -->
                 <section class="swiper-slide" aria-labelledby="s3t">
                     <div class="slide-content">
-                        <div class="slide-number">[14/29]</div>
+                        <div class="slide-number">[18/37]</div>
                         <h2 id="s3t" class="slide-title">Mots de passe : l'essentiel</h2>
                         <p class="slide-subtitle">Jargon : <strong>passphrase</strong> = phrase longue facile à retenir.
                         </p>
-                        <ul class="quiz" role="list" aria-label="Quiz mot de passe" data-quiz>
+                        <ul class="quiz" role="list" aria-label="Quiz mot de passe essentiel" data-quiz>
                             <li><button class="quiz-option" data-correct="false">123456 <span class="err">(très
                                         faible)</span></button></li>
                             <li><button class="quiz-option" data-correct="false">P@ssw0rd! <span
@@ -357,27 +325,23 @@
                             <li><button class="quiz-option" data-correct="true">Jadore-les-crêpes-de-ma-mamie-2024 <span
                                         class="ok">(passphrase)</span></button></li>
                         </ul>
-
                         <figure class="terminal">
                             <figcaption>Règles — mots de passe</figcaption>
                             <ul class="slide-list">
-
                                 <li>Longueur &gt; 14&nbsp;caractères</li>
                                 <li>Unique par service</li>
                                 <li>Gestionnaire (Bitwarden)</li>
                                 <li>2FA (application)</li>
                             </ul>
                         </figure>
-
                         <p class="note">Démo : créer un coffre Bitwarden + activer la 2FA sur un compte.</p>
                     </div>
                 </section>
 
-                <!-- Module Détecter/Reagir -->
-                <!-- 5. Où ranger ses mots de passe -->
+                <!-- 19. Où ranger mots de passe -->
                 <section class="swiper-slide" aria-labelledby="s5t">
                     <div class="slide-content">
-                        <div class="slide-number">[15/29]</div>
+                        <div class="slide-number">[19/37]</div>
                         <h2 id="s5t" class="slide-title">Où ranger vos mots de passe ?</h2>
                         <div class="slide-text">Deux options cohérentes :</div>
                         <ul class="slide-list cols-2">
@@ -390,15 +354,13 @@
                     </div>
                 </section>
 
-
-                <!-- Module 4 — Sécurité mobile -->
+                <!-- 20. Module 4 Niveau 1 -->
                 <section class="swiper-slide" aria-labelledby="sm1t">
                     <div class="slide-content">
-                        <div class="slide-number">[20/35]</div>
+                        <div class="slide-number">[20/37]</div>
                         <span class="time-badge">1:30 – 1:55</span>
                         <h2 id="sm1t" class="slide-title">Module 4 — Smartphone Niveau 1</h2>
                         <p class="slide-subtitle">Les basiques (2 minutes chrono)</p>
-
                         <figure class="terminal">
                             <figcaption class="ok">Configuration express</figcaption>
                             <ul class="slide-list">
@@ -409,18 +371,17 @@
                                 <li><strong>Mises à jour :</strong> Activer "Installation automatique la nuit"</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="warn">Règle d'or :</span> Un téléphone posé = un téléphone
                             verrouillé</div>
                     </div>
                 </section>
 
+                <!-- 21. Smartphone Niveau 2 -->
                 <section class="swiper-slide" aria-labelledby="sm2t">
                     <div class="slide-content">
-                        <div class="slide-number">[21/35]</div>
+                        <div class="slide-number">[21/37]</div>
                         <h2 id="sm2t" class="slide-title">Smartphone Niveau 2 — Sauvegarde</h2>
                         <p class="slide-subtitle">Ne plus jamais perdre vos données (3 minutes)</p>
-
                         <figure class="terminal">
                             <figcaption>1. Photos automatiques</figcaption>
                             <ul class="slide-list">
@@ -429,7 +390,6 @@
                                 <li><strong>Résultat :</strong> Téléphone dans les toilettes = photos sauvées ✓</li>
                             </ul>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption>2. WhatsApp + Contacts</figcaption>
                             <ul class="slide-list">
@@ -440,12 +400,12 @@
                     </div>
                 </section>
 
+                <!-- 22. Smartphone Niveau 3 -->
                 <section class="swiper-slide" aria-labelledby="sm3t">
                     <div class="slide-content">
-                        <div class="slide-number">[22/35]</div>
+                        <div class="slide-number">[22/37]</div>
                         <h2 id="sm3t" class="slide-title">Smartphone Niveau 3 — Double authentification</h2>
                         <p class="slide-subtitle">Votre porte blindée numérique (5 minutes)</p>
-
                         <figure class="terminal">
                             <figcaption class="ok">Installation 2FA</figcaption>
                             <ul class="slide-list">
@@ -456,7 +416,6 @@
                                 <li><strong>Étape 3 :</strong> Scanner QR code → Code généré toutes les 30 secondes</li>
                             </ul>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption>Services prioritaires pour 2FA</figcaption>
                             <ul class="slide-list">
@@ -465,18 +424,15 @@
                                 <li>Réseaux sociaux professionnels (LinkedIn)</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="ok">Effet :</span> Même avec votre mot de passe volé,
-                            personne ne peut entrer
-                            sans votre téléphone</div>
+                            personne ne peut entrer sans votre téléphone</div>
                     </div>
                 </section>
 
-                <!-- Module 4 — Sécurité mobile -->
-                <!-- Rituel du dimanche -->
+                <!-- 23. Rituel du dimanche -->
                 <section class="swiper-slide" aria-labelledby="s14t">
                     <div class="slide-content">
-                        <div class="slide-number">[17/29]</div>
+                        <div class="slide-number">[23/37]</div>
                         <h2 id="s14t" class="slide-title">Rituel du dimanche (15 min)</h2>
                         <figure class="terminal">
                             <figcaption>Rituel du dimanche — 15 min</figcaption>
@@ -492,10 +448,10 @@
                     </div>
                 </section>
 
-                <!-- Module 5 — Ergonomie -->
+                <!-- 24. Module 5 — Ergonomie -->
                 <section class="swiper-slide" aria-labelledby="s15t">
                     <div class="slide-content">
-                        <div class="slide-number">[18/29]</div>
+                        <div class="slide-number">[24/37]</div>
                         <span class="time-badge">1:55 – 2:20</span>
                         <h2 id="s15t" class="slide-title">Module 5 — Ergonomie</h2>
                         <figure class="terminal">
@@ -508,14 +464,13 @@
                                 <li>Écran à hauteur des yeux</li>
                             </ul>
                         </figure>
-
                     </div>
                 </section>
 
-                <!-- Module 5 — Ergonomie -->
+                <!-- 25. Sauver vos cervicales -->
                 <section class="swiper-slide" aria-labelledby="s16t">
                     <div class="slide-content">
-                        <div class="slide-number">[19/29]</div>
+                        <div class="slide-number">[25/37]</div>
                         <h2 id="s16t" class="slide-title">Sauver vos cervicales</h2>
                         <figure class="terminal">
                             <figcaption>Poids de la tête selon la posture</figcaption>
@@ -525,14 +480,13 @@
                             </ul>
                             <p class="slide-text"><em>Test du selfie</em> : alignez toujours l'écran avec vos yeux.</p>
                         </figure>
-
                     </div>
                 </section>
 
-                <!-- Module 5 — Ergonomie -->
+                <!-- 26. Règle 20-20-20 -->
                 <section class="swiper-slide" aria-labelledby="s17t">
                     <div class="slide-content">
-                        <div class="slide-number">[20/29]</div>
+                        <div class="slide-number">[26/37]</div>
                         <h2 id="s17t" class="slide-title">Règle 20‑20‑20</h2>
                         <figure class="terminal">
                             <figcaption>Règle <strong>20-20-20</strong></figcaption>
@@ -542,21 +496,16 @@
                                 <li>Pendant <strong>20 secondes</strong></li>
                             </ul>
                         </figure>
-
                         <p class="slide-text">Ajoutez 3 étirements : « chat », « hibou », « ailes d'ange ».</p>
                     </div>
                 </section>
 
-
-
-                <!-- Module 5 — Ergonomie -->
-                <!-- Étirement 1 — Le chat -->
+                <!-- 27. Étirement 1 — Le chat -->
                 <section class="swiper-slide" aria-labelledby="s18t">
                     <div class="slide-content">
-                        <div class="slide-number">[21/29]</div>
+                        <div class="slide-number">[27/37]</div>
                         <h2 id="s18t" class="slide-title">Étirement 1 — Le chat</h2>
                         <p class="slide-subtitle">Relâcher le dos et la nuque</p>
-
                         <figure class="terminal">
                             <figcaption>Mouvement</figcaption>
                             <ul class="slide-list">
@@ -566,20 +515,17 @@
                                 <li>Répétez 2 à 3 fois</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="ok">Effet</span> : libère les tensions du dos, améliore la
                             respiration.</div>
                     </div>
                 </section>
 
-                <!-- Module 5 — Ergonomie -->
-                <!-- Étirement 2 — Le hibou -->
+                <!-- 28. Étirement 2 — Le hibou -->
                 <section class="swiper-slide" aria-labelledby="s19t">
                     <div class="slide-content">
-                        <div class="slide-number">[22/29]</div>
+                        <div class="slide-number">[28/37]</div>
                         <h2 id="s19t" class="slide-title">Étirement 2 — Le hibou</h2>
                         <p class="slide-subtitle">Détendre le cou et reposer les yeux</p>
-
                         <figure class="terminal">
                             <figcaption>Mouvement</figcaption>
                             <ul class="slide-list">
@@ -588,20 +534,17 @@
                                 <li>Clignez plusieurs fois des yeux pour les réhydrater</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="ok">Effet</span> : soulage la nuque et réduit la fatigue
                             oculaire.</div>
                     </div>
                 </section>
 
-                <!-- Module 5 — Ergonomie -->
-                <!-- Étirement 3 — Les ailes d'ange -->
+                <!-- 29. Étirement 3 — Les ailes d'ange -->
                 <section class="swiper-slide" aria-labelledby="s20t">
                     <div class="slide-content">
-                        <div class="slide-number">[23/29]</div>
+                        <div class="slide-number">[29/37]</div>
                         <h2 id="s20t" class="slide-title">Étirement 3 — Les ailes d'ange</h2>
                         <p class="slide-subtitle">Ouvrir la poitrine et corriger la posture</p>
-
                         <figure class="terminal">
                             <figcaption>Mouvement</figcaption>
                             <ul class="slide-list">
@@ -610,20 +553,17 @@
                                 <li>Respirez profondément à chaque rotation</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="ok">Effet</span> : détend les épaules, réactive la
-                            circulation, améliore la
-                            posture.</div>
+                            circulation, améliore la posture.</div>
                     </div>
                 </section>
 
-
-                <!-- Module 6 — RGPD -->
-                <section class="swiper-slide" aria-labelledby="s18t">
+                <!-- 30. Module 6 — RGPD -->
+                <section class="swiper-slide" aria-labelledby="srgpd1t">
                     <div class="slide-content">
-                        <div class="slide-number">[24/29]</div>
+                        <div class="slide-number">[30/37]</div>
                         <span class="time-badge">2:20 – 2:50</span>
-                        <h2 id="s18t" class="slide-title">Module 6 — RGPD (fondamentaux)</h2>
+                        <h2 id="srgpd1t" class="slide-title">Module 6 — RGPD (fondamentaux)</h2>
                         <p class="slide-subtitle">Jargon : <strong>RGPD</strong> (Règlement Général sur la Protection
                             des Données) ; <strong>DPO</strong> : délégué à la protection des données ; <strong>base
                                 légale</strong> : raison juridique qui autorise un traitement.</p>
@@ -633,29 +573,44 @@
                     </div>
                 </section>
 
-                <section class="swiper-slide" aria-labelledby="s19t">
+                <!-- 31. Les 6 principes du RGPD -->
+                <section class="swiper-slide" aria-labelledby="rgpd4t">
                     <div class="slide-content">
-                        <div class="slide-number">[25/29]</div>
-                        <h2 id="s19t" class="slide-title">Les 6 principes du RGPD</h2>
-                        <ul class="slide-list cols-2">
-                            <li><strong>Licéité, loyauté, transparence</strong> : dire ce qu'on fait, le faire
-                                légalement.</li>
-                            <li><strong>Limitation des finalités</strong> : pas d'usages imprévus.</li>
-                            <li><strong>Minimisation</strong> : données strictement nécessaires.</li>
-                            <li><strong>Exactitude</strong> : données à jour.</li>
-                            <li><strong>Limitation de conservation</strong> : durée définie.</li>
-                            <li><strong>Intégrité & confidentialité</strong> : sécurité technique/organisationnelle.
-                            </li>
-                        </ul>
-                        <div class="terminal">Principe transversal : <strong>Responsabilité</strong>
-                            (« accountability ») : prouver ce que vous affirmez.</div>
+                        <div class="slide-number">[19/22]</div>
+                        <h2 id="rgpd4t" class="slide-title">Les 4 règles du RGPD</h2>
+
+                        <p class="slide-text">
+                            Le RGPD repose sur quatre piliers fondamentaux que toute organisation doit respecter.
+                            Pensez-y comme aux quatre règles essentielles de votre programme de conformité :
+                        </p>
+
+                        <figure class="terminal">
+                            <figcaption><strong>Règles essentielles du RGPD :</strong></figcaption>
+                            <ul>
+                                <li>Demander l’accord avant de collecter</li>
+                                <li>Expliquer clairement l’utilisation</li>
+                                <li>Donner accès aux données sur demande</li>
+                                <li>Supprimer les données sur demande</li>
+                            </ul>
+                            <ul>
+                                <li><strong>Bonus :</strong> Permettre le transfert des données</li>
+                                <li><strong>Bonus :</strong> Corriger les erreurs rapidement</li>
+                            </ul>
+                        </figure>
+
+                        <p class="slide-text">
+                            <strong>Cas réel :</strong> une petite entreprise a reçu une amende de 5 000 €
+                            pour avoir conservé des données clients trop longtemps après la fin du contrat.
+                        </p>
                     </div>
                 </section>
 
-                <section class="swiper-slide" aria-labelledby="s20t">
+
+                <!-- 32. Kit de démarrage RGPD -->
+                <section class="swiper-slide" aria-labelledby="srgpd2bt">
                     <div class="slide-content">
-                        <div class="slide-number">[26/29]</div>
-                        <h2 id="s20t" class="slide-title">Kit de démarrage RGPD (PME)</h2>
+                        <div class="slide-number">[32/37]</div>
+                        <h2 id="srgpd2bt" class="slide-title">Kit de démarrage RGPD (PME)</h2>
                         <ul class="slide-list cols-2">
                             <li><strong>Nommer un référent</strong> (même 0,1 ETP).</li>
                             <li><strong>Registre simple</strong> (tableur) : <em>qui</em> collecte, <em>quoi</em>,
@@ -669,11 +624,45 @@
                             + journal des demandes.</div>
                     </div>
                 </section>
+
+                <!-- Nommer un référent RGPD -->
                 <section class="swiper-slide" aria-labelledby="srgpd3t">
                     <div class="slide-content">
-                        <div class="slide-number">[30/35]</div>
-                        <h2 id="srgpd3t" class="slide-title">RGPD — Template consentement</h2>
+                        <div class="slide-number">[33/37]</div>
+                        <h2 id="srgpd3t" class="slide-title">Nommer un référent RGPD</h2>
 
+                        <p class="slide-text">
+                            Même à temps partiel (0,1 ETP ≈ 4&nbsp;heures/semaine), un référent RGPD permet
+                            d’assurer la conformité et de créer une culture de protection des données.
+                        </p>
+
+                        <figure class="terminal">
+                            <figcaption><strong>Comment nommer un référent :</strong></figcaption>
+                            <ul class="slide-list">
+                                <li><strong>1. Choisir la bonne personne</strong> : interne ou prestataire externe,
+                                    indépendante et formée aux bases du RGPD.</li>
+                                <li><strong>2. Formaliser la désignation</strong> : lettre ou avenant précisant
+                                    les missions et le temps dédié.</li>
+                                <li><strong>3. Déclarer le DPO</strong> auprès de l’Autorité de Protection des Données
+                                    (<a href="https://www.autoriteprotectiondonnees.be" target="_blank"
+                                        rel="noopener">APD</a>).</li>
+                                <li><strong>4. Communiquer en interne</strong> : informer l’équipe,
+                                    créer une adresse dédiée (ex.&nbsp;: <code>dpo@votresite.be</code>).</li>
+                            </ul>
+                        </figure>
+
+                        <p class="slide-text">
+                            <strong>Astuce :</strong> le référent peut mutualiser ses fonctions avec celles d’un
+                            responsable qualité, sécurité ou communication.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Template consentement -->
+                <section class="swiper-slide" aria-labelledby="srgpd3t">
+                    <div class="slide-content">
+                        <div class="slide-number">[33/37]</div>
+                        <h2 id="srgpd3t" class="slide-title">RGPD — Template consentement</h2>
                         <figure class="terminal">
                             <figcaption class="ok">Exemple de formulaire CORRECT</figcaption>
                             <div class="slide-text"
@@ -684,7 +673,6 @@
                                 [Envoyer] [Refuser]
                             </div>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption class="err">Erreurs INTERDITES</figcaption>
                             <ul class="slide-list">
@@ -696,11 +684,11 @@
                     </div>
                 </section>
 
+                <!-- Template réponse demande -->
                 <section class="swiper-slide" aria-labelledby="srgpd4t">
                     <div class="slide-content">
-                        <div class="slide-number">[31/35]</div>
+                        <div class="slide-number">[34/37]</div>
                         <h2 id="srgpd4t" class="slide-title">RGPD — Template réponse demande</h2>
-
                         <figure class="terminal">
                             <figcaption>Email type — Demande d'accès</figcaption>
                             <div class="slide-text"
@@ -719,17 +707,16 @@
                                 [Signature]
                             </div>
                         </figure>
-
                         <div class="terminal"><span class="warn">Délai légal :</span> 30 jours maximum pour répondre
                         </div>
                     </div>
                 </section>
 
+                <!-- 35. Droit à l'oubli -->
                 <section class="swiper-slide" aria-labelledby="srgpd5t">
                     <div class="slide-content">
-                        <div class="slide-number">[32/35]</div>
+                        <div class="slide-number">[35/37]</div>
                         <h2 id="srgpd5t" class="slide-title">RGPD — Droit à l'oubli</h2>
-
                         <figure class="terminal">
                             <figcaption class="ok">Quand SUPPRIMER les données</figcaption>
                             <ul class="slide-list">
@@ -739,7 +726,6 @@
                                 <li>Demande explicite de suppression</li>
                             </ul>
                         </figure>
-
                         <figure class="terminal">
                             <figcaption class="warn">Quand GARDER les données</figcaption>
                             <ul class="slide-list">
@@ -748,18 +734,15 @@
                                 <li><strong>Contrats actifs :</strong> durée du contrat + garanties</li>
                             </ul>
                         </figure>
-
                         <div class="terminal"><span class="err">Astuce :</span> Créer un dossier "Demandes_RGPD" avec
-                            historique tracé
-                        </div>
+                            historique tracé</div>
                     </div>
                 </section>
 
-
-                <!-- 23. Plan 3-3-3 -->
+                <!-- 36. Plan 3-3-3 -->
                 <section class="swiper-slide" aria-labelledby="s23t">
                     <div class="slide-content">
-                        <div class="slide-number">[28/29]</div>
+                        <div class="slide-number">[36/37]</div>
                         <span class="time-badge">2:50 – 3:00</span>
                         <h2 id="s23t" class="slide-title">Plan d'action 3‑3‑3</h2>
                         <figure class="terminal">
@@ -768,65 +751,18 @@
                                 <li><strong>Demain</strong> : verrouiller son poste (Win+L) • vérifier le bureau •
                                     tester une restauration</li>
                                 <li><strong>Cette semaine</strong> : créer une passphrase unique critique • configurer
-                                    la sécurité mobile •
-                                    appliquer la règle 20-20-20</li>
+                                    la sécurité mobile • appliquer la règle 20-20-20</li>
                                 <li><strong>Ce mois</strong> : mettre en place le RGPD minimal • activer la sauvegarde
-                                    automatique • animer une
-                                    mini-formation d'équipe</li>
+                                    automatique • animer une mini-formation d'équipe</li>
                             </ul>
                         </figure>
-
                     </div>
                 </section>
 
-                <!-- 24. Outils essentiels -->
-                <section class="swiper-slide" aria-labelledby="s24t">
-                    <div class="slide-content">
-                        <div class="slide-number">[29/29]</div>
-                        <h2 id="s24t" class="slide-title">Outils essentiels</h2>
-                        <ul class="slide-list cols-2">
-                            <li>Bitwarden (mots de passe) • Application 2FA (OTP) • Navigateur à jour.</li>
-                            <li>Service de sauvegarde (Drive/OneDrive) ou Syncthing • Vérification trimestrielle.</li>
-                            <li>Stretchly/Workrave (pauses) • « Localiser mon appareil » activé.</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!-- 25. Ressources -->
-                <section class="swiper-slide" aria-labelledby="s25t">
-                    <div class="slide-content">
-                        <div class="slide-number">[30/29]</div>
-                        <h2 id="s25t" class="slide-title">Ressources</h2>
-                        <figure class="terminal">
-                            <figcaption>Ressources utiles</figcaption>
-                            <ul class="slide-list">
-                                <li><a href="https://www.cybermalveillance.gouv.fr" target="_blank"
-                                        rel="noopener">cybermalveillance.gouv.fr</a>
-                                    — prévention et assistance</li>
-                                <li><a href="https://haveibeenpwned.com" target="_blank"
-                                        rel="noopener">haveibeenpwned.com</a> —
-                                    vérification de
-                                    fuite de comptes</li>
-                                <li><a href="https://www.cnil.fr" target="_blank" rel="noopener">cnil.fr</a> —
-                                    protection des données
-                                    personnelles</li>
-                                <li><a href="https://signal.org" target="_blank" rel="noopener">signal.org</a> —
-                                    messagerie chiffrée sécurisée
-                                </li>
-                                <li><a href="https://bitwarden.com" target="_blank" rel="noopener">bitwarden.com</a> —
-                                    gestionnaire de mots de
-                                    passe open-source</li>
-                            </ul>
-                        </figure>
-
-                        <p class="slide-text">Mémo imprimable disponible (appuyer sur <span class="kbd">P</span>).</p>
-                    </div>
-                </section>
-
-                <!-- 26. Merci / Fin -->
+                <!-- 37. Formation terminée -->
                 <section class="swiper-slide" aria-labelledby="s26t">
                     <div class="slide-content">
-                        <div class="slide-number">[31/29]</div>
+                        <div class="slide-number">[37/37]</div>
                         <h2 id="s26t" class="slide-title">Formation terminée</h2>
                         <figure class="terminal">
                             <figcaption>Conclusion</figcaption>
@@ -836,8 +772,19 @@
                                 <li><strong>Chaque petit geste compte</strong></li>
                             </ul>
                         </figure>
-
                         <p class="slide-text">Questions ? Mise en pratique tout de suite !</p>
+                        <br>
+                        <figure class="terminal">
+                            <figcaption class="ok">Ressources essentielles</figcaption>
+                            <ul class="slide-list">
+                                <li><a href="https://www.cybermalveillance.gouv.fr" target="_blank"
+                                        rel="noopener">cybermalveillance.gouv.fr</a> — assistance</li>
+                                <li><a href="https://haveibeenpwned.com" target="_blank"
+                                        rel="noopener">haveibeenpwned.com</a> — fuites</li>
+                                <li><a href="https://bitwarden.com" target="_blank" rel="noopener">bitwarden.com</a> —
+                                    gestionnaire</li>
+                            </ul>
+                        </figure>
                     </div>
                 </section>
 
@@ -848,7 +795,6 @@
         </div>
     </main>
 
-    <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="slides.js"></script>
 </body>
