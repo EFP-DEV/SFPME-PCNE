@@ -347,7 +347,7 @@
         <div class="swiper">
             <div class="swiper-wrapper">
 
-                <!-- 1. Titre -->
+                <!-- Titre -->
                 <section class="swiper-slide" aria-labelledby="s1t">
                     <div class="slide-content">
                         <div class="slide-number">[1/29]</div>
@@ -397,30 +397,225 @@
                     </div>
                 </section>
 
-                <!-- 2. Diagnostic -->
-                <section class="swiper-slide" aria-labelledby="s2t">
+                <!-- Table des matières -->
+                <section class="swiper-slide" aria-labelledby="s1bt">
                     <div class="slide-content">
                         <div class="slide-number">[3/29]</div>
-                        <span class="time-badge">0:05 – 0:10</span>
-                        <h2 id="s2t" class="slide-title">Diagnostic express</h2>
-                        <p class="slide-text">Levez la main si vous avez déjà vécu :</p>
+                        <h2 id="s1bt" class="slide-title">Table des matières</h2>
                         <figure class="terminal">
-                            <figcaption>Diagnostic — situations déjà vécues</figcaption>
-                            <ul class="slide-list">
-                                <li>Perte de photos</li>
-                                <li>SMS douteux</li>
-                                <li>Fichier disparu</li>
-                                <li>PC volé</li>
-                                <li>Mot de passe oublié</li>
+                            <figcaption>Parcours de la formation</figcaption>
+                            <ul class="slide-list cols-2">
+
                             </ul>
                         </figure>
+                        <p class="note">Durée totale : ≈ 3 heures — alternance théorie / pratique / démos</p>
+                    </div>
+                </section>
 
+                <!-- Diagnostic interactif -->
+                <section class="swiper-slide" aria-labelledby="s2t">
+                    <div class="slide-content">
+                        <div class="slide-number">[4/29]</div>
+                        <span class="time-badge">0:05 – 0:10</span>
+                        <h2 id="s2t" class="slide-title">Diagnostic express</h2>
+                        <p class="slide-text">Levez la main si vous avez déjà :</p>
+                        <figure class="terminal">
+                            <ul class="slide-list">
+                                <li>Perdu des photos</li>
+                                <li>Repondu a un SMS/mail douteux</li>
+                                <li>Clique sur un lien en croyant qu'il etait legitime</li>
+                                <li>pris trop de temps a retrouver un document</li>
+                                <li>PC/Smartphone volé ou perdu</li>
+                                <li>Oublié un mot de passe</li>
+                            </ul>
+                        </figure>
                         <div class="slide-text"><strong>But</strong> : identifier 2–3 vulnérabilités personnelles à
                             corriger aujourd’hui.</div>
                     </div>
                 </section>
 
-                <!-- 3. Mots de passe (fondamentaux) -->
+
+                <!-- Module sécurité physique -->
+                <section class="swiper-slide" aria-labelledby="s6t">
+                    <div class="slide-content">
+                        <div class="slide-number">[6/29]</div>
+                        <span class="time-badge">0:20 – 0:40</span>
+                        <h2 id="s6t" class="slide-title">Module 1 — Sécurité physique</h2>
+                        <p class="slide-subtitle">Le monde réel attaque aussi.</p>
+
+                        <figure class="terminal">
+                            <figcaption>Réflexes — sécurité physique</figcaption>
+                            <ul class="slide-list">
+                                <li><strong>Win+L</strong> dès que vous vous levez</li>
+                                <li>Bureau clair (rien de sensible ne traîne)</li>
+                                <li>Ports et badges : vigilance avant de brancher/passer</li>
+                                <li>Écran bien placé (limiter les regards par-dessus l’épaule)</li>
+                                <li>Invités escortés (pas d’accès libre)</li>
+                            </ul>
+                        </figure>
+                        <p class="slide-text">Exercice : vérifiez le bureau du voisin (documents visibles ? clés USB ?
+                            écran ?).</p>
+                    </div>
+                </section>
+
+                <!-- Module sécurité physique -->
+                <!-- 5 réflexes -->
+                <section class="swiper-slide" aria-labelledby="s7t">
+                    <div class="slide-content">
+                        <div class="slide-number">[7/29]</div>
+                        <h2 id="s7t" class="slide-title">Les 5 réflexes</h2>
+                        <ul class="slide-list cols-2">
+                            <li><strong>Win+L</strong> dès que vous vous levez.</li>
+                            <li><strong>Bureau propre</strong> : rien de sensible traîne.</li>
+                            <li><strong>Clés USB suspectes</strong> = seringue sale.</li>
+                            <li><strong>Position écran</strong> anti‑regard par‑dessus l’épaule.</li>
+                            <li><strong>Inspectez</strong> ports/adaptateurs avant branchement.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Module sécurité physique -->
+                <!-- Clé USB piège -->
+                <section class="swiper-slide" aria-labelledby="s4t">
+                    <div class="slide-content">
+                        <div class="slide-number">[8/29]</div>
+                        <h2 id="s4t" class="slide-title">La clé USB piège</h2>
+                        <p class="slide-subtitle">Scénario : « Salaires_2024.xlsx » trouvé au parking.</p>
+                        <ul class="quiz" role="list" aria-label="Quiz clé USB" data-quiz>
+                            <li><button class="quiz-option" data-correct="false">La brancher « juste pour
+                                    voir »</button></li>
+                            <li><button class="quiz-option" data-correct="true">La signaler (IT) / la déposer à
+                                    l’accueil</button></li>
+                            <li><button class="quiz-option" data-correct="true">Ne pas l’utiliser, ne pas la ramener
+                                    chez soi</button></li>
+                        </ul>
+                        <div class="terminal">Risque : exécution automatique, vol de mots de passe, <span
+                                class="err">destruction matérielle</span> (clé « tueuse »).</div>
+                    </div>
+                </section>
+
+
+                <!-- Module sauvegardes -->
+                <section class="swiper-slide" aria-labelledby="s8t">
+                    <div class="slide-content">
+                        <div class="slide-number">[9/29]</div>
+                        <span class="time-badge">0:40 – 1:05</span>
+                        <h2 id="s8t" class="slide-title">Module 2 — Sauvegardes</h2>
+                        <div class="terminal">Si vous avez une sauvegarde, vous pleurez une fois. Sinon, vous pleurez
+                            longtemps.</div>
+                        <p class="slide-text">Cas typiques : disque perdu/volé, ransomware, incendie, maladresse.</p>
+                    </div>
+                </section>
+
+                <!-- Module sauvegardes -->
+                <!-- 9. Règle 3-2-1 -->
+                <section class="swiper-slide" aria-labelledby="s9t">
+                    <div class="slide-content">
+                        <div class="slide-number">[10/29]</div>
+                        <h2 id="s9t" class="slide-title">Règle 3‑2‑1</h2>
+                        <div class="center-big"><strong>3</strong> copies • <strong>2</strong> supports •
+                            <strong>1</strong> hors site
+                        </div>
+                        <p class="slide-text">Exemple : PC (original) + disque externe + cloud. Testez la restauration
+                            tous les trimestres.</p>
+                    </div>
+                </section>
+
+                <!-- Module sauvegardes -->
+                <!-- 10. Planning sauvegarde -->
+                <section class="swiper-slide" aria-labelledby="s10t">
+                    <div class="slide-content">
+                        <div class="slide-number">[11/29]</div>
+                        <h2 id="s10t" class="slide-title">Votre planning de sauvegarde</h2>
+                        <figure class="terminal">
+                            <figcaption>Planning de sauvegarde</figcaption>
+                            <ul class="slide-list">
+                                <li><strong>Ce soir</strong> : documents administratifs</li>
+                                <li><strong>Cette semaine</strong> : photos</li>
+                                <li><strong>Ce mois</strong> : courriels</li>
+                            </ul>
+                            <p class="note">Rappel : effectuer la vérification le dimanche soir.</p>
+                        </figure>
+
+                        <p class="slide-text">Démo : configurer une sauvegarde automatique (Drive/OneDrive/Syncthing) en
+                            10 minutes.</p>
+                    </div>
+                </section>
+
+
+                <!-- Module Détecter/Reagir -->
+                <!-- 11. Détecter les menaces -->
+                <section class="swiper-slide" aria-labelledby="s11t">
+                    <div class="slide-content">
+                        <div class="slide-number">[12/29]</div>
+                        <span class="time-badge">1:05 – 1:30</span>
+                        <h2 id="s11t" class="slide-title">Module 3 — Détecter les menaces</h2>
+                        <figure class="terminal">
+                            <figcaption>Signaux d’alerte (phishing & arnaques)</figcaption>
+                            <ul class="slide-list">
+                                <li>Fautes et incohérences</li>
+                                <li>Urgence artificielle / chantage</li>
+                                <li>Adresse qui “ressemble” (usurpation)</li>
+                                <li>PJ ou lien inattendu</li>
+                            </ul>
+                        </figure>
+
+                        <p class="slide-text">Règle : quand ça presse, <em>STOP</em> (voir diapo suivante).
+                    </div>
+                </section>
+
+                <!-- Module Détecter/Reagir -->
+                <!-- 12. STOP -->
+                <section class="swiper-slide" aria-labelledby="s12t">
+                    <div class="slide-content">
+                        <div class="slide-number">[12/29]</div>
+                        <h2 id="s12t" class="slide-title">Méthode STOP</h2>
+                        <figure class="terminal">
+                            <figcaption>Méthode <strong>STOP</strong></figcaption>
+                            <ul class="slide-list">
+                                <li><span class="err">S</span> — <strong>Suspicion</strong> : message ou demande
+                                    inhabituelle</li>
+                                <li><span class="warn">T</span> — <strong>Temps de pause</strong> : ne pas agir dans la
+                                    précipitation</li>
+                                <li><span class="ok">O</span> — <strong>Opinion d’un collègue</strong> : demander un
+                                    second avis</li>
+                                <li><span style="color:#7fbfff">P</span> — <strong>Protection</strong> : bloquer,
+                                    signaler, changer le mot de passe</li>
+                            </ul>
+                        </figure>
+
+                        <p class="slide-text">Mieux vaut 100 fausses alertes qu’un seul clic fatal.</p>
+                    </div>
+                </section>
+
+                <!-- Module Détecter/Reagir -->
+                <!-- 12. Mots de passe (signification) -->
+                <section class="swiper-slide" aria-labelledby="s2t">
+                    <div class="slide-content">
+                        <div class="slide-number">[3/29]</div>
+                        <span class="time-badge">0:05 – 0:10</span>
+                        <h2 id="s2t" class="slide-title">Qu’est-ce qu’un mot de passe ?</h2>
+
+                        <p class="slide-subtitle">Un mot de passe sert à <strong>prouver ton identité</strong>. Il te
+                            distingue de tous les autres utilisateurs d’un système.</p>
+
+                        <figure class="terminal">
+                            <figcaption>Analogie — carte d’identité numérique</figcaption>
+                            <ul class="slide-list">
+                                <li>Un mot de passe = ta <strong>carte d’identité numérique</strong>.</li>
+                                <li>Si tu le donnes à quelqu’un, <strong>cette personne devient “toi”</strong> en ligne.
+                                </li>
+                                <li>Ne jamais le partager, même avec un proche ou un collègue.</li>
+                            </ul>
+                        </figure>
+
+                        <p class="note">Si qqun insiste pour connaitre: se demander si on lui confierai les cles de chez
+                            soi, ou ces enfants → ton mot de passe, c’est pareil.</p>
+                    </div>
+                </section>
+
+                <!-- Module Détecter/Reagir -->
+                <!-- 13. Mots de passe (fondamentaux) -->
                 <section class="swiper-slide" aria-labelledby="s3t">
                     <div class="slide-content">
                         <div class="slide-number">[4/29]</div>
@@ -452,8 +647,7 @@
                     </div>
                 </section>
 
-
-
+                <!-- Module Détecter/Reagir -->
                 <!-- 5. Où ranger ses mots de passe -->
                 <section class="swiper-slide" aria-labelledby="s5t">
                     <div class="slide-content">
@@ -470,152 +664,7 @@
                     </div>
                 </section>
 
-                <!-- 6. Module sécurité physique -->
-                <section class="swiper-slide" aria-labelledby="s6t">
-                    <div class="slide-content">
-                        <div class="slide-number">[6/29]</div>
-                        <span class="time-badge">0:20 – 0:40</span>
-                        <h2 id="s6t" class="slide-title">Module 1 — Sécurité physique</h2>
-                        <p class="slide-subtitle">Le monde réel attaque aussi.</p>
-
-                        <figure class="terminal">
-                            <figcaption>Réflexes — sécurité physique</figcaption>
-                            <ul class="slide-list">
-                                <li><strong>Win+L</strong> dès que vous vous levez</li>
-                                <li>Bureau clair (rien de sensible ne traîne)</li>
-                                <li>Ports et badges : vigilance avant de brancher/passer</li>
-                                <li>Écran bien placé (limiter les regards par-dessus l’épaule)</li>
-                                <li>Invités escortés (pas d’accès libre)</li>
-                            </ul>
-                        </figure>
-                        <p class="slide-text">Exercice : vérifiez le bureau du voisin (documents visibles ? clés USB ?
-                            écran ?).</p>
-                    </div>
-                </section>
-
-                <!-- 7. 5 réflexes -->
-                <section class="swiper-slide" aria-labelledby="s7t">
-                    <div class="slide-content">
-                        <div class="slide-number">[7/29]</div>
-                        <h2 id="s7t" class="slide-title">Les 5 réflexes</h2>
-                        <ul class="slide-list cols-2">
-                            <li><strong>Win+L</strong> dès que vous vous levez.</li>
-                            <li><strong>Bureau propre</strong> : rien de sensible traîne.</li>
-                            <li><strong>Clés USB suspectes</strong> = seringue sale.</li>
-                            <li><strong>Position écran</strong> anti‑regard par‑dessus l’épaule.</li>
-                            <li><strong>Inspectez</strong> ports/adaptateurs avant branchement.</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!-- 4. Clé USB piège -->
-                <section class="swiper-slide" aria-labelledby="s4t">
-                    <div class="slide-content">
-                        <div class="slide-number">[8/29]</div>
-                        <h2 id="s4t" class="slide-title">La clé USB piège</h2>
-                        <p class="slide-subtitle">Scénario : « Salaires_2024.xlsx » trouvé au parking.</p>
-                        <ul class="quiz" role="list" aria-label="Quiz clé USB" data-quiz>
-                            <li><button class="quiz-option" data-correct="false">La brancher « juste pour
-                                    voir »</button></li>
-                            <li><button class="quiz-option" data-correct="true">La signaler (IT) / la déposer à
-                                    l’accueil</button></li>
-                            <li><button class="quiz-option" data-correct="true">Ne pas l’utiliser, ne pas la ramener
-                                    chez soi</button></li>
-                        </ul>
-                        <div class="terminal">Risque : exécution automatique, vol de mots de passe, <span class="err">destruction
-                                matérielle</span> (clé « tueuse »).</div>
-                    </div>
-                </section>
-                <!-- 8. Module sauvegardes -->
-                <section class="swiper-slide" aria-labelledby="s8t">
-                    <div class="slide-content">
-                        <div class="slide-number">[9/29]</div>
-                        <span class="time-badge">0:40 – 1:05</span>
-                        <h2 id="s8t" class="slide-title">Module 2 — Sauvegardes</h2>
-                        <div class="terminal">Si vous avez une sauvegarde, vous pleurez une fois. Sinon, vous pleurez
-                            longtemps.</div>
-                        <p class="slide-text">Cas typiques : disque perdu/volé, ransomware, incendie, maladresse.</p>
-                    </div>
-                </section>
-
-                <!-- 9. Règle 3-2-1 -->
-                <section class="swiper-slide" aria-labelledby="s9t">
-                    <div class="slide-content">
-                        <div class="slide-number">[10/29]</div>
-                        <h2 id="s9t" class="slide-title">Règle 3‑2‑1</h2>
-                        <div class="center-big"><strong>3</strong> copies • <strong>2</strong> supports •
-                            <strong>1</strong> hors site
-                        </div>
-                        <p class="slide-text">Exemple : PC (original) + disque externe + cloud. Testez la restauration
-                            tous les trimestres.</p>
-                    </div>
-                </section>
-
-                <!-- 10. Planning sauvegarde -->
-                <section class="swiper-slide" aria-labelledby="s10t">
-                    <div class="slide-content">
-                        <div class="slide-number">[11/29]</div>
-                        <h2 id="s10t" class="slide-title">Votre planning de sauvegarde</h2>
-                        <figure class="terminal">
-                            <figcaption>Planning de sauvegarde</figcaption>
-                            <ul class="slide-list">
-                                <li><strong>Ce soir</strong> : documents administratifs</li>
-                                <li><strong>Cette semaine</strong> : photos</li>
-                                <li><strong>Ce mois</strong> : courriels</li>
-                            </ul>
-                            <p class="note">Rappel : effectuer la vérification le dimanche soir.</p>
-                        </figure>
-
-                        <p class="slide-text">Démo : configurer une sauvegarde automatique (Drive/OneDrive/Syncthing) en
-                            10 minutes.</p>
-                    </div>
-                </section>
-
-                <!-- 11. Détecter les menaces -->
-                <section class="swiper-slide" aria-labelledby="s11t">
-                    <div class="slide-content">
-                        <div class="slide-number">[12/29]</div>
-                        <span class="time-badge">1:05 – 1:30</span>
-                        <h2 id="s11t" class="slide-title">Module 3 — Détecter les menaces</h2>
-                        <figure class="terminal">
-                            <figcaption>Signaux d’alerte (phishing & arnaques)</figcaption>
-                            <ul class="slide-list">
-                                <li>Fautes et incohérences</li>
-                                <li>Urgence artificielle / chantage</li>
-                                <li>Adresse qui “ressemble” (usurpation)</li>
-                                <li>PJ ou lien inattendu</li>
-                            </ul>
-                        </figure>
-
-                        <p class="slide-text">Règle : quand ça presse, <em>STOP</em> (voir diapo suivante).
-                    </div>
-                </section>
-
-                <!-- 12. STOP -->
-                <section class="swiper-slide" aria-labelledby="s12t">
-                    <div class="slide-content">
-                        <div class="slide-number">[12/29]</div>
-                        <h2 id="s12t" class="slide-title">Méthode STOP</h2>
-                        <figure class="terminal">
-                            <figcaption>Méthode <strong>STOP</strong></figcaption>
-                            <ul class="slide-list">
-                                <li><span class="err">S</span> — <strong>Suspicion</strong> : message ou demande
-                                    inhabituelle</li>
-                                <li><span class="warn">T</span> — <strong>Temps de pause</strong> : ne pas agir dans la
-                                    précipitation</li>
-                                <li><span class="ok">O</span> — <strong>Opinion d’un collègue</strong> : demander un
-                                    second avis</li>
-                                <li><span style="color:#7fbfff">P</span> — <strong>Protection</strong> : bloquer,
-                                    signaler, changer le mot de
-                                    passe</li>
-                            </ul>
-                        </figure>
-
-                        <p class="slide-text">Mieux vaut 100 fausses alertes qu’un seul clic fatal.</p>
-                    </div>
-                </section>
-
-                <!-- 13. Mobile -->
+                <!-- Module 4 — Sécurité mobile -->
                 <section class="swiper-slide" aria-labelledby="s13t">
                     <div class="slide-content">
                         <div class="slide-number">[13/29]</div>
@@ -636,7 +685,9 @@
                     </div>
                 </section>
 
-                <!-- 14. Rituel du dimanche -->
+
+                <!-- Module 4 — Sécurité mobile -->
+                <!-- Rituel du dimanche -->
                 <section class="swiper-slide" aria-labelledby="s14t">
                     <div class="slide-content">
                         <div class="slide-number">[14/29]</div>
@@ -652,11 +703,10 @@
                                 <li>Tester “Localiser mon appareil”</li>
                             </ul>
                         </figure>
-
                     </div>
                 </section>
 
-                <!-- 15–17. Ergonomie -->
+                <!-- Module 5 — Ergonomie -->
                 <section class="swiper-slide" aria-labelledby="s15t">
                     <div class="slide-content">
                         <div class="slide-number">[15/29]</div>
@@ -676,6 +726,7 @@
                     </div>
                 </section>
 
+                <!-- Module 5 — Ergonomie -->
                 <section class="swiper-slide" aria-labelledby="s16t">
                     <div class="slide-content">
                         <div class="slide-number">[16/29]</div>
@@ -692,6 +743,7 @@
                     </div>
                 </section>
 
+                <!-- Module 5 — Ergonomie -->
                 <section class="swiper-slide" aria-labelledby="s17t">
                     <div class="slide-content">
                         <div class="slide-number">[17/29]</div>
@@ -710,6 +762,8 @@
                 </section>
 
 
+
+                <!-- Module 5 — Ergonomie -->
                 <!-- Étirement 1 — Le chat -->
                 <section class="swiper-slide" aria-labelledby="s18t">
                     <div class="slide-content">
@@ -732,6 +786,7 @@
                     </div>
                 </section>
 
+                <!-- Module 5 — Ergonomie -->
                 <!-- Étirement 2 — Le hibou -->
                 <section class="swiper-slide" aria-labelledby="s19t">
                     <div class="slide-content">
@@ -753,6 +808,7 @@
                     </div>
                 </section>
 
+                <!-- Module 5 — Ergonomie -->
                 <!-- Étirement 3 — Les ailes d’ange -->
                 <section class="swiper-slide" aria-labelledby="s20t">
                     <div class="slide-content">
@@ -776,7 +832,7 @@
                 </section>
 
 
-                <!-- 18–20. RGPD révisé (fondamentaux) -->
+                <!-- Module 6 — RGPD -->
                 <section class="swiper-slide" aria-labelledby="s18t">
                     <div class="slide-content">
                         <div class="slide-number">[21/29]</div>
@@ -844,33 +900,26 @@
                     </div>
                 </section>
 
-                <!-- 22. Glossaire minimal -->
-                <section class="swiper-slide" aria-labelledby="s22t">
-                    <div class="slide-content">
-                        <div class="slide-number">[25/29]</div>
-                        <h2 id="s22t" class="slide-title">Glossaire minimal</h2>
-                        <ul class="slide-list cols-2">
-                            <li><strong>2FA</strong> : deuxième facteur (appli de codes).</li>
-                            <li><strong>Phishing</strong> : message qui imite un vrai pour voler infos.</li>
-                            <li><strong>Ransomware</strong> : logiciel qui chiffre vos fichiers contre rançon.</li>
-                            <li><strong>Chiffrement</strong> : rendre illisible sans clé (ex : disque
-                                BitLocker/FileVault).</li>
-                            <li><strong>Gestionnaire de mots de passe</strong> : coffre chiffré pour identifiants.</li>
-                        </ul>
-                    </div>
-                </section>
 
                 <!-- 23. Plan 3-3-3 -->
                 <section class="swiper-slide" aria-labelledby="s23t">
                     <div class="slide-content">
                         <div class="slide-number">[26/29]</div>
                         <h2 id="s23t" class="slide-title">Plan d’action 3‑3‑3</h2>
-                        <div class="terminal">
-                            <strong>Demain</strong> : Win+L • Vérifier bureau • Tester restauration.<br />
-                            <strong>Cette semaine</strong> : 1 passphrase unique critique • Config mobile • Règle
-                            20‑20‑20.<br />
-                            <strong>Ce mois</strong> : RGPD minimal • Sauvegarde auto • Mini‑formation équipe.
-                        </div>
+                        <figure class="terminal">
+                            <figcaption>Plan d’action 3-3-3</figcaption>
+                            <ul class="slide-list">
+                                <li><strong>Demain</strong> : verrouiller son poste (Win+L) • vérifier le bureau •
+                                    tester une restauration</li>
+                                <li><strong>Cette semaine</strong> : créer une passphrase unique critique • configurer
+                                    la sécurité mobile •
+                                    appliquer la règle 20-20-20</li>
+                                <li><strong>Ce mois</strong> : mettre en place le RGPD minimal • activer la sauvegarde
+                                    automatique • animer une
+                                    mini-formation d’équipe</li>
+                            </ul>
+                        </figure>
+
                     </div>
                 </section>
 
