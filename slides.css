@@ -315,3 +315,9 @@ a {
 [data-density="dense"] .slide-list li {
     margin: 6px 0
 }
+
+section img {
+    width:200px;
+    height: auto;
+    align-self: center;
+}
