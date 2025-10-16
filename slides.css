@@ -321,3 +321,7 @@ section img {
     height: auto;
     align-self: center;
 }
+
+section img.big{
+    width:100%;
+}
